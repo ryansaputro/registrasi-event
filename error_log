@@ -1,0 +1,39 @@
+[27-Dec-2019 03:43:30 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/portalse/public_html/eo/laravel/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 500
+[24-Jan-2020 17:21:19 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[24-Jan-2020 17:21:19 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/symfony/debug/Exception/FatalErrorException.php on line 1
+[24-Jan-2020 17:21:34 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[24-Jan-2020 17:21:34 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/symfony/debug/Exception/FatalErrorException.php on line 1
+[24-Jan-2020 17:21:41 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[24-Jan-2020 17:21:41 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/symfony/debug/Exception/FatalErrorException.php on line 1
+[24-Jan-2020 17:23:57 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[24-Jan-2020 17:23:57 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32768 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/symfony/debug/Exception/FatalErrorException.php on line 1
+[04-Feb-2020 13:39:02 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/portalse/public_html/test-eo/laravel/storage/framework/views/883be1369718dbc38b6985f55c2f8078eb003e54.php on line 646
+[04-Feb-2020 13:40:30 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/portalse/public_html/test-eo/laravel/storage/framework/views/883be1369718dbc38b6985f55c2f8078eb003e54.php on line 634
+[11-Feb-2020 08:24:33 Asia/Jakarta] ["2","1"]
+[11-Feb-2020 08:24:50 Asia/Jakarta] ["2","1"]
+[11-Feb-2020 17:13:44 Asia/Jakarta] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php:346
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/portalse/...', 346, Array)
+#1 /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php(346): implode(', ', Array)
+#2 [internal function]: App\Http\Controllers\DashboardController->JerseyAjax(Object(Illuminate\Http\Request))
+#3 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('JerseyAjax', Array)
+#5 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\ in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php on line 346
+[11-Feb-2020 17:13:44 Asia/Jakarta] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php on line 346
+[11-Feb-2020 17:16:10 Asia/Jakarta] PHP Warning:  Uncaught ErrorException: Object of class stdClass could not be converted to string in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php:335
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(4096, 'Object of class...', '/home/portalse/...', 335, Array)
+#1 /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php(335): implode(', ', Array)
+#2 [internal function]: App\Http\Controllers\DashboardController->JerseyAjax(Object(Illuminate\Http\Request))
+#3 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#4 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('JerseyAjax', Array)
+#5 /home/portalse/public_html/test-eo/laravel/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\ in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php on line 335
+[11-Feb-2020 17:16:10 Asia/Jakarta] PHP Fatal error:  Object of class stdClass could not be converted to string in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/DashboardController.php on line 335
+[13-Feb-2020 11:58:10 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/portalse/public_html/test-eo/laravel/storage/framework/views/28c4cbb25e92b665ebdc61cf2f7b3702d032bfe0.php on line 343
+[14-Feb-2020 01:40:40 UTC] PHP Warning:  POST Content-Length of 15705924 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Feb-2020 02:53:33 UTC] PHP Warning:  POST Content-Length of 8940257 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[14-Feb-2020 10:05:33 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[14-Feb-2020 10:06:54 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/portalse/public_html/test-eo/laravel/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 138
+[14-Feb-2020 16:46:28 Asia/Jakarta] PHP Fatal error:  Cannot use [] for reading in /home/portalse/public_html/test-eo/laravel/app/Http/Controllers/LaporanController.php on line 161
+[19-Feb-2020 09:42:59 UTC] PHP Warning:  POST Content-Length of 11644068 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[21-Feb-2020 15:11:03 Asia/Jakarta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/portalse/public_html/test-eo/laravel/storage/framework/views/fa8d5a9d8faed20c58cddc474c18d92feb18258a.php on line 141

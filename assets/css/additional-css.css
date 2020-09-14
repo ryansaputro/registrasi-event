@@ -1,0 +1,560 @@
+@media (min-width: 1080px) {
+   .skin-red-light .main-header .navbar .nav>li>a{
+      color: #747070 !important;
+  }
+  .skin-red-light .main-header .navbar{
+      border-bottom: 2px solid #9d9d9526;
+      height: 92px;
+  }
+  .fixed .content-wrapper, .fixed .right-side{
+      padding-top:100px;
+      /* min-height: 200px !important; */
+  }
+
+  .skin-red-light .main-header .navbar .nav>li>a{
+      padding-top: 30px;
+  }
+
+  .skin-red-light .main-sidebar{
+      border-right: none !important;
+  }
+
+  .skin-red-light .sidebar-form{
+    position: absolute;
+  }
+
+  .search{
+    color: #a7a9ab;
+    padding-top: 30px;
+    padding-left: 20px;
+    position: absolute;
+  }
+
+  .text-search{
+      padding-left: 20px;
+  }
+
+  .sidebar-form{
+    margin-top: -5px;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid;
+  }
+
+  .text-search:active{
+    border-width: 10px;
+  }
+
+  .content-wrapper{
+    background-color:#fff;
+  }
+
+  .main-sidebar{
+    box-shadow: 5px 10px 10px 0px #888888;
+  }
+  .main-header{
+    /* box-shadow: 240px -6px 10px 10px #888888;; */
+  }
+
+  h4{
+    margin-top: 20px !important;
+  }
+
+  .skin-red-light .main-header .navbar .nav>li>a:hover{
+    height: 92px;
+  }
+
+  .btn-primary:hover{
+    background-color:#011e3d;
+    border-color:#011e3d;
+    color: #fff;
+  }
+  .btn-primary{
+    background-color: #d91d48;
+    border-color: #d91d48;
+    color: #fff;
+  }
+
+  .content-header{
+    padding: 15px 40px 0 40px;
+  }
+  .main-sidebar{
+    margin-top: 40px;
+  }
+
+  .logo{
+    margin-top: 15px;
+  }
+  h4.text-center{
+      font-size: 23px;
+  }
+
+  .skin-red-light .main-header .logo:hover{
+    background-color: #dc473500 !important;
+  }
+
+  .panel-default{
+    box-shadow: 5px 5px 10px 0px #888888;
+  }
+
+  .main-footer{
+    border-top:none !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin-left: 250px;
+    background: #fff;
+    padding: 20px;
+  }
+
+  .content{
+    background: white;
+  }
+
+  .skin-red-light .sidebar-menu .treeview-menu>li>a:hover{
+    background: #900525;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    color: #fff !important;
+  }
+
+  .skin-red-light .sidebar-menu .treeview-menu>li.active>a{
+    background: #d91d48;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    color: #fff !important;
+  }
+  .skin-red-light .sidebar-menu .treeview-menu>li>a{
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-top:10px;
+  }
+  .a-header{
+    color:#3d3e3e;
+    font-weight: 600;
+  }
+
+  .event{
+    height: 55px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+
+  .menus.aktif{
+    background: #DCDCDC;
+    border-bottom: 5px solid #d91d48;
+  }
+
+  .menus{
+    /* margin-top: -10px; */
+    line-height: 80px;
+    height: 85px;
+  }
+
+  .menus-top{
+    border: 1px solid gainsboro;
+    padding: 0px 10px 0px 0px;
+    margin-top: -10px;
+  }
+
+  .grid, .list{
+    padding-top:5px;
+  }
+
+  .title-list-event{
+    font-size:10px;
+  }
+  .body-list-event{
+    font-size:12px;
+    font-weight: 600;
+  }
+
+  .right-sidebar{
+    position: fixed;
+    right: 0;
+    /* top:177px; */
+    width:23%;
+  }
+
+  ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+
+.caret {
+  cursor: pointer;
+  font-weight: 600;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  display: unset !important;
+  width: unset !important;
+  height: unset !important;
+  margin-left: unset !important;
+  vertical-align: unset !important;
+  border-top: unset !important;
+  border-top: unset !important;
+  border-right: unset !important;
+  border-left: unset !important;
+}
+
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Safari */'
+  transform: rotate(90deg);  
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+.nested>li{
+    /* border-bottom: 1px solid #dddddd; */
+    margin-left: -20px;
+    line-height: 2;
+}
+.nomor{
+    padding: 10px;
+    background: #d91d48;
+    color: #fff;
+    border-radius: 95px;
+    width: 28%;
+    margin: 42px;
+    z-index: 10;
+    position: absolute;
+}
+.vl {
+    border-left: 2px solid #d91d48;
+    height: 500px;
+    position: absolute;
+    margin-left: 65px;
+    z-index: 9;
+}
+.a-header.not-active{
+  color: #939595;
+}
+.a-header:hover, .a-header:focus{
+  color: #939595;
+}
+.a-header.active{
+  color:#3d3e3e;
+}
+.div-no{
+  width: 20.5%;
+}
+.event-create{
+    line-height: 2;
+    margin-left: 15px;
+}
+.header-event{
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.header-data{
+  padding-left: 0px;
+}
+.keterangan{
+  position: absolute;
+  color: #777;
+  text-align: center;
+  z-index: 1000;
+  line-height: 30;
+  margin-left: 70px;
+}
+.keterangan-1{
+  position: absolute;
+  color: #777;
+  text-align: center;
+  line-height: 33;
+  margin-left: 105px;
+  z-index: 1000;
+
+}
+#blah{
+  height:325px;background-size: 100px;background-repeat: no-repeat;background-position: center;
+}
+
+.input-event{
+  border: none;
+  margin-left: -10px;
+}
+.form-event{
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.penting{
+  color:red;
+}
+.bayar{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  position: absolute;
+  left: 60%;
+}
+.event-bayar:hover{
+  border-color: #2874AF;
+}
+.event-gratis:hover{
+  border-color: #3BCB45;
+}
+.gratis{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+  position: absolute;
+  left: 5%;
+}
+/* The container */
+.event-pilihan-gratis {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /* font-size: 22px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: normal;
+  color: #3bcb45;
+}
+
+
+/* Hide the browser's default radio button */
+.event-pilihan-gratis input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.type_event_gratis {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  /* background-color: #eee; */
+  border-radius: 5px;
+  /* border:1px solid #f0f0f0; */
+}
+
+/* On mouse-over, add a grey background color */
+.event-pilihan-gratis:hover input ~ .type_event_gratis {
+  /* background-image: url('http://localhost/eo/laravel/public/images/background/event_gratis_hover.png'); */
+  /* border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  border: 1px solid #3bcb45; */
+}
+
+/*  add a grey background color */
+.event-pilihan-gratis input ~ .type_event_gratis {
+  background-image: url('http://localhost/eo/laravel/public/images/background/event_gratis.png');
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  
+}
+
+/* When the radio button is checked, add a blue background */
+.event-pilihan-gratis input:checked ~ .type_event_gratis {
+  background-image: url('http://localhost/eo/laravel/public/images/background/event_gratis_hover.png');
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  border: 1px solid #3bcb45;
+  box-shadow: 2px 2px 5px -1px #888888;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.type_event_gratis:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.event-pilihan-gratis input:checked ~ .type_event_gratis:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.event-pilihan-gratis .type_event_gratis:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	/* background: white; */
+}
+.event-pilihan-gratis:hover{
+  color:#3bcb45;
+}
+.event-pilihan-gratis input:checked ~ .type_event_gratis ~.headnya,.event-pilihan-gratis input:checked ~ .type_event_gratis ~.bodynya{
+  opacity: 1;
+}
+.headnya{
+  margin-left: 55%;
+  padding-top: 2%;
+  opacity: 0;
+}
+.bodynya{
+  margin-left: 55%;
+  padding-top: 0%;
+  opacity: 0;
+}
+/* The container */
+.event-pilihan-bayar {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  /* font-size: 22px; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-weight: normal;
+  color: #333;
+}
+
+
+/* Hide the browser's default radio button */
+.event-pilihan-bayar input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.type_event_bayar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  /* background-color: #eee; */
+  border-radius: 5px;
+  /* border:1px solid #f0f0f0; */
+}
+
+/* On mouse-over, add a grey background color */
+.event-pilihan-bayar:hover input ~ .type_event_bayar {
+  /* background-image: url('http://localhost/eo/laravel/public/images/background/event_gratis_hover.png'); */
+  /* border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  border: 1px solid #3bcb45; */
+}
+
+/*  add a grey background color */
+.event-pilihan-bayar input ~ .type_event_bayar {
+  background-image: url('http://localhost/eo/laravel/public/images/background/event_berbayar.png');
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  background-position: right;
+}
+
+/* When the radio button is checked, add a blue background */
+.event-pilihan-bayar input:checked ~ .type_event_bayar {
+  background-image: url('http://localhost/eo/laravel/public/images/background/event_berbayar_hover.png');
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: content-box;
+  padding: 10px;
+  border: 1px solid #2874af;
+  box-shadow: 2px 2px 5px -1px #888888;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.type_event_bayar:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.event-pilihan-bayar input:checked ~ .type_event_bayar:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.event-pilihan-bayar .type_event_bayar:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	/* background: white; */
+}
+.event-pilihan-bayar:hover{
+  color:#333;
+}
+.event-pilihan-bayar input:checked ~ .type_event_bayar ~.headbayar{
+  opacity: 1;
+}
+
+.headbayar{
+  padding-top: 2%;
+  opacity: 0;
+  margin-left: -23px;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  z-index:100;
+}
+#mapSearchContainer{
+  position:fixed;
+  top:20px;
+  right: 40px;
+  height:30px;
+  width:180px;
+  z-index:110;
+  font-size:10pt;
+  color:#5d5d5d;
+  border:solid 1px #bbb;
+  background-color:#f8f8f8;
+}
+.pointer{
+  position:absolute;
+  top:86px;
+  left:60px;
+  z-index:99999;
+}
+}

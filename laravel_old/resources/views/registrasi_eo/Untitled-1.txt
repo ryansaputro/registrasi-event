@@ -1,0 +1,147 @@
+<div class="register-box">
+  <div class="register-logo">
+    <a href="../../index2.html"><b style="color:#011e3d;">Registrasi EO</b> <b style="color:#da0b45;">Portal</b><b style="color:#fff;">Sepeda</b></a>
+  </div>
+
+  <div class="register-box-body">
+    <p class="login-box-msg">Registrasi Event Orginizer Portalsepeda</p>
+
+    <form action="{{ route('registrasiEO.store') }}" method="post">
+      {{ csrf_field() }}
+      <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="nama" id="nama" value="{{ old('nama') }}" placeholder="Nama anda">
+              <span class="fa fa-user form-control-feedback"></span>
+              @if($errors->has('nama'))
+                <div class="text-danger">
+                    {{ $errors->first('nama')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="email" class="form-control" name="email" id="email" value="{{ old('email') }}" placeholder="Email">
+              <span class="fa fa-envelope form-control-feedback"></span>
+              @if($errors->has('email'))
+                <div class="text-danger">
+                    {{ $errors->first('email')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="kontak" id="kontak" value="{{ old('kontak') }}" placeholder="Kontak">
+              <span class="fa fa-phone form-control-feedback"></span>
+              @if($errors->has('kontak'))
+                <div class="text-danger">
+                    {{ $errors->first('kontak')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="no_hp_kontak" id="no_hp_kontak" value="{{ old('no_hp_kontak') }}" placeholder="No Hp Kontak">
+              <span class="fa fa-address-book-o form-control-feedback"></span>
+              @if($errors->has('no_hp_kontak'))
+                <div class="text-danger">
+                    {{ $errors->first('no_hp_kontak')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="no_wa_kontak" id="no_wa_kontak" value="{{ old('no_wa_kontak') }}" placeholder="No Whatsapp Kontak">
+              <span class="fa fa-whatsapp form-control-feedback"></span>
+              @if($errors->has('no_wa_kontak'))
+                <div class="text-danger">
+                    {{ $errors->first('no_wa_kontak')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="file" class="form-control" name="logo_eo" id="logo_eo" value="{{ old('logo_eo') }}" placeholder="Logo EO">
+              <span class="fa fa-picture-o form-control-feedback"></span>
+              @if($errors->has('logo_eo'))
+                <div class="text-danger">
+                    {{ $errors->first('logo_eo')}}
+                </div>
+              @endif
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <div class="form-group has-feedback">
+              <select required class="form-control" name="provinsi" id="provinsi" value="{{ old('provinsi') }}">
+                <option selected disabled>-pilih provinsi-</option>
+                @foreach ($provinsi as $k => $v)
+              <option value="{{$v['id']}}">{{$v['nama']}}</option>
+                @endforeach
+              </select>
+              @if($errors->has('provinsi'))
+                <div class="text-danger">
+                    {{ $errors->first('provinsi')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <select required class="form-control" name="kota" id="kota" value="{{ old('kota') }}">
+                <option selected disabled>-pilih kota-</option>
+              </select>
+              @if($errors->has('kota'))
+                <div class="text-danger">
+                    {{ $errors->first('kota')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <textarea required class="form-control" name="alamat" id="alamat" value="{{ old('alamat') }}" placeholder="Masukan Alamat Anda"></textarea>
+              <span class="fa fa-address-card form-control-feedback"></span>
+              @if($errors->has('nama'))
+                <div class="text-danger">
+                    {{ $errors->first('nama')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="kode_pos" id="kode_pos" value="{{ old('kode_pos') }}" placeholder="Kode Pos">
+              <span class="fa fa-address-card form-control-feedback"></span>
+              @if($errors->has('kode_pos'))
+                <div class="text-danger">
+                    {{ $errors->first('kode_pos')}}
+                </div>
+              @endif
+            </div>
+            <div class="form-group has-feedback">
+              <input required type="text" class="form-control" name="alamat_web" id="alamat_web" value="{{ old('alamat_web') }}" placeholder="Alamat Web">
+              <span class="fa fa-globe form-control-feedback"></span>
+              @if($errors->has('alamat_web'))
+                <div class="text-danger">
+                    {{ $errors->first('alamat_web')}}
+                </div>
+              @endif
+            </div>
+          </div>
+          <!-- <div class="form-group has-feedback">
+            <input type="password" class="form-control" name="repassword" id="repassword" placeholder="Retype password">
+            <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+          </div> -->
+        </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a class="btn btn-danger btn-block btn-flat" >Kembali</a>
+                {{-- <input class="btn btn-primary btn-block btn-flat" type="submit" value="Register"> --}}
+                <!-- <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button> -->
+              </div>
+              <div class="col-md-6">
+                <input class="btn btn-primary btn-block btn-flat" type="submit" value="Register">
+                <!-- <button type="submit" class="btn btn-primary btn-block btn-flat">Register</button> -->
+              </div>
+  
+              <!-- /.col -->
+            </div>
+  
+    </form>
+
+    {{-- <div class="text-center" style="margin-top:20px;">
+        Sudah punya akun anggota?<a href="/login" class="text-center"> Login</a>
+    </div> --}}
+    
+  </div>
+  <!-- /.form-box -->
+</div>
